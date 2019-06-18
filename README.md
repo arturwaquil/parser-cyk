@@ -4,11 +4,7 @@ Desenvolvido para a cadeira de Linguagens Formais e Autômatos N, do 3º semestr
 
 ### Compilar
 
-Para compilar, execute o seguinte comando:
-
-```
-$ g++ -std=c++11 src/erros.cpp src/grammar.cpp src/producoes.cpp src/parser.cpp -o parser.exe
-```
+Para compilar, execute o comando ```$make```.
 
 ### Autores
 
