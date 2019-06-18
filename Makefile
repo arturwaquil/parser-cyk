@@ -7,16 +7,16 @@ all: parser.o producoes.o grammar.o erros.o
 	$(CC) parser.o producoes.o grammar.o erros.o -o parser
 	rm -rf *o
 
-parser.o: parser.cpp
+parser.o: src/parser.cpp
 	$(CC) $(CFLAGS) src/parser.cpp
 
-producoes.o: producoes.cpp
+producoes.o: src/producoes.cpp
 	$(CC) $(CFLAGS) src/producoes.cpp
 
-grammar.o: grammar.cpp
+grammar.o: src/grammar.cpp
 	$(CC) $(CFLAGS) src/grammar.cpp
 
-erros.o: erros.cpp
+erros.o: src/erros.cpp
 	$(CC) $(CFLAGS) src/erros.cpp
 
 clean:
